@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 50%;
+}
+.col-third {
+    width: 33.333333%;
+}
+.col-six {
+    width: 66.666666%;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.col-four {
+    width: 25%;
+}
+.color-grey {
+    color: #777 !important;
+}
+.mb-15 {
+    margin-bottom: 15px!important;
+}
+#header {
+    background: #fff;
+    height: 42px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /* background-color:transparent; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#nav {
+    opacity: 0.75;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a{
+    line-height: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    display: inline-block;
+    padding: 1px 16px;
+}
+
+#nav li:hover a {
+    background: #ccc;
+    color:#000;
+}
+
+.search-btn {
+    float:right;
+    padding : 12px 16px;
+}
+.search-btn:hover {
+    background: red;
+    color:#000;
+    cursor: pointer;
+}
+.search-button {
+    line-height: 42px;
+    font-size: 15px;
+   
+}
+#slider {
+    background-image: url("../img/slider/slider1.jpg");
+    min-height: 400px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+    position: relative;
+}
+.slider-show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.slider-show-header {
+    color: #fff;
+    background: #000;
+    padding: 12px 24px;
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+
+#content {
+
+}
+
+#content .about-section {
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    line-height: 1.8;
+}
+
+.about-text {
+    margin: 10px 0px;
+    font-size: 24px;
+    text-align: center;
+    color: #777;
+}
+
+.about-slogan {
+    margin: 15px 0;
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    font-size: 15px;
+}
+
+#content .about-desc {
+    color: #777;
+    font-size: 15px;
+    color: #777;
+    margin: 15px 0;
+}
+.about-img {
+    padding: 12px 24px;
+}
+
+.about-name {
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+.user-icon {
+    margin-right: 5px;
+}
+
+.name-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+.name-img:hover {
+    opacity: 1;
+}
+.about-welcom {
+    padding: 12px 24px;
+    margin: 15px 0;
+}
+.about-good {
+    font-size: 18px;
+    padding: 16px 0;
+    margin: 18px 0;
+    text-align: center;
+}
+.about-skill {
+    font-size: 15px;
+    margin:15px 0;
+    letter-spacing: 10px;
+    line-height: 1.8;
+}
+
+.skill-icon {
+
+}
+.progress-container {
+    background: #f1f1f1;
+    color: #000;
+}
+.progress-bar {
+    padding: 4px 8px;
+    text-align: center;
+    background: #616161;
+    color: #fff;
+}
+#content .project-section {
+    background: #616161;
+    padding: 16px 0;
+}
+
+#content .quanter-section {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 16px 0;
+    line-height: 1.8;
+}
+
+#content .quanter-name {
+    font-size: 24px;
+}
+#content .portfolio-section {
+    position: relative;
+    background: url("../img/prallax/parallax2.jpg") center / cover no-repeat;
+    min-height: 400px;
+    opacity: 0.75;
+}
+
+#content .portfolio-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.8;
+    letter-spacing: 10px;
+}
+
+#content .work-section {
+    padding: 64px 16px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+#content .work-about {
+    margin-top: 30px;
+}
+
+#content .work-img {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+#content .work-img-section {
+    padding: 0 8px;
+    float: left;
+}
+
+#content .work-p {
+    width: 100%;
+}
+#content .work-p:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+#content .work-btn {
+    border: none;
+    padding: 18px 24px;
+    margin-top: 64px;
+    font-size: 15px;
+}
+#content .work-btn:hover {
+    background: #ccc;
+    color: #000;
+}
+
+#content .contact-section {
+    position: relative;
+    background: url("../img/contact/parallax3.jpg") center /cover no-repeat;
+    min-height: 400px;
+    opacity: 0.75;
+}
+
+#content .form-section {
+    padding: 64px 16px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .img-foot {
+    max-width: 100%;
+    height: auto;
+}
+
+#footer {
+    
+}

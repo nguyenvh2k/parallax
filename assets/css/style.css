@@ -14,7 +14,7 @@ body {
     height: 100%;
 }
 .col-full {
-    width: 100%;
+    width: 100% !important;
 }
 .col {
     float: left;

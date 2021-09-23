@@ -7,7 +7,9 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
+    scroll-behavior: smooth;
 }
+
 body {
     height: 100%;
 }
@@ -42,6 +44,15 @@ body {
 }
 .mb-15 {
     margin-bottom: 15px!important;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.pull-right {
+    float: right;
 }
 #header {
     background: #fff;
@@ -296,6 +307,92 @@ body {
     height: auto;
 }
 
+#content .form-desc {
+    float: left;
+    padding: 0 24px;
+}
+
+#content .form-adress {
+    margin-bottom: 16px;
+}
+
+#content .form-info {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.info-icon {
+    margin-right: 16px;
+}
+
+#content .form-bye {
+    margin: 15px 0;
+    font-size: 15px;
+    color:#777777;
+}
+.form-control {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    display: block;
+}
+.buy-btn {
+    padding: 12px 16px;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    border: none;
+}
+.buy-btn:hover {
+    background: #ccc;
+    color: #000;
+}
 #footer {
-    padding: 16px 64px;
+    padding: 64px 0;
+    background: #000;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.button-footer{
+    text-align: center;
+    border: none;
+    background: #f1f1f1;
+    color: #777777;
+    padding: 12px 16px;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.button-footer:hover {
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+.footer-icon {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #f1f1f1;
+}
+.footer-product {
+    margin-top: 16px;
+    color: #f1f1f1 ;
+    font-size: 15px;
+}
+.w3 {
+    color: #f1f1f1;
+}
+
+#footer:hover {
+    opacity: 1;
+    color: #fff;
 }

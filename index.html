@@ -14,19 +14,19 @@
             <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li>
-                    <a href="#">
+                    <a href="#about">
                         <i class="ti-user ti-icon"></i>
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#work">
                         <i class="ti-layout-grid3-alt ti-icon"></i>
                         Portfolio
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#contact">
                         <i class="ti-email ti-icon"></i>
                         Contact
                     </a>
@@ -44,7 +44,7 @@
         </div>
 
         <div id="content">
-            <div class="about-section">
+            <div class="about-section" id="about">
                 <div class="about-text">ABOUT ME</div>
                 <div class="about-slogan">I love photography</div>
                 <div class="about-desc">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
@@ -109,7 +109,8 @@
             <div class="portfolio-section">
                 <span class="portfolio-name">PORTFOLIO</span>
             </div>
-            <div class="work-section">
+            <!-- My work -->
+            <div class="work-section" id="work">
                 <div class="about-text">MY WORK</div>
                 <div class="about-slogan mb-15">
                     Here are some of my latest lorem work ipsum tipsum.
@@ -159,29 +160,67 @@
             </div>
 
             <!-- Form section -->
-            <div class="form-section">
+            <div class="form-section" id="contact">
                 <div class="about-text">WHERE I WORK</div>
                 <div class="about-slogan mb-15">
                     I'd love your feedback!
                 </div>
 
                 <div class="form-about row ">
-                    <div class="form-img col-third">
+                    <div class="form-img col col-third">
                         <img src="./assets/img/form/map.jpg" alt="" class="img-foot">
                     </div>
 
-                    <div class="form-desc col-six">
+                    <div class="form-desc col col-six">
                         <div class="form-adress">
-
+                            <h3 class="form-info">
+                                <i class="ti-location-pin info-icon"></i>
+                                Chicago, US
+                            </h3>
+                            <h3 class="form-info">
+                                <i class="ti-mobile info-icon"></i>
+                                Phone: +00 151515
+                            </h3>
+                            <h3 class="form-info">
+                                <i class="ti-email info-icon"></i>
+                                Email: mail@mail.com
+                            </h3>
                         </div>
+                        <p class="form-bye">
+                            Swing by for a cup of
+                            <i class="ti-cup"></i>
+                            , or leave me a note:
+                        </p>
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col col-half">
+                                <input type="Email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input type="text" class="form-control" placeholder="Message" required>
+                            </div>
+                        </div>
+                        <button class ="buy-btn mt-16 pull-right" ><i class="ti-location-arrow"></i> SEND MESSAGE</button>
                     </div>
                 </div>
             </div>
             
         </div>
         <div id="footer">
-                
-                
+                <a href="#" class="button-footer"><i class="ti-arrow-up"></i> To the top</a>
+                <div class="footer-icon">
+                    <i class="ti-facebook"></i>
+                    <i class="ti-instagram"></i>
+                    <i class="ti-youtube"></i>
+                    <i class="ti-pinterest"></i>
+                    <i class="ti-twitter-alt"></i>
+                    <i class="ti-linkedin"></i>
+                </div>
+                <div class="footer-product">Powered by <a href="" class="w3">w3.css</a></div>
         </div>
     </div>
 </body>

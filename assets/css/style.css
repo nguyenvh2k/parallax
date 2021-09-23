@@ -355,6 +355,7 @@ body {
 .buy-btn:hover {
     background: #ccc;
     color: #000;
+    cursor: pointer;
 }
 #footer {
     padding: 64px 0;

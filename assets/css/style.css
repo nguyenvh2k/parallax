@@ -85,7 +85,7 @@ body {
     color: #000;
     font-size: 15px;
     display: inline-block;
-    padding: 1px 16px;
+    padding: 0 16px;
 }
 
 #nav li:hover a {
@@ -289,6 +289,7 @@ body {
 #content .work-btn:hover {
     background: #ccc;
     color: #000;
+    cursor: pointer;
 }
 
 #content .contact-section {
@@ -393,6 +394,10 @@ body {
 }
 .w3 {
     color: #f1f1f1;
+}
+.icon-footer:hover{
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 #footer:hover {

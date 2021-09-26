@@ -7,10 +7,33 @@
     <title>W3_parallax</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
 </head>
 <body>
     <div id="main">
+        
         <div id="header">
+            <div id="toast">
+                <div class="toast toast--warning">
+                    <div class="toast_icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+            
+                    <div class="toast_body">
+                        <h3 class="toast_title">
+                            Warning
+                        </h3>
+                        <p class="toast_msg">
+                            Web này chưa responsive nên ae nên xem bằng máy tính nhé !
+                        </p>
+                    </div>
+            
+                    <div class="toast_close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                </div>
             <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li>
@@ -226,17 +249,17 @@
         </div>
     </div>
     <script>
-        //     window.onscroll = function() {myFunction()};
-        //     function myFunction() {
-        //     var navbar = document.getElementById("header");
-        //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) 
-        //     {
-        //         navbar.className = "";
-        //     } 
-        //     else {
-        //          navbar.className = navbar.className.replace(" ");
-        //     }
-        // }
+            window.onscroll = function() {myFunction()};
+            function myFunction() {
+            var navbar = document.getElementById("header");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) 
+            {
+                navbar.className = ".nav";
+            } 
+            else {
+                 navbar.className = navbar.className.replace(".trans");
+            }
+        }
 
     </script>
 </body>

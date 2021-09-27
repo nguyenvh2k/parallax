@@ -73,6 +73,7 @@ body {
 }
 .trans {
   background-color: transparent !important;
+  box-shadow: none !important;
 }
 #header {
   background: #fff;

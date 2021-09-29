@@ -6,12 +6,13 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
   scroll-behavior: smooth;
 }
 
+html,
 body {
-  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .text-white {
   background-color: #fff !important;
